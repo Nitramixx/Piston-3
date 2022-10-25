@@ -1,0 +1,90 @@
+.patrouille{margin: auto;}
+.patrouille h3{ text-align: center;}
+.cri-patrouille
+{
+	text-align: center;
+	margin-bottom: 0px;
+}
+.description-patrouille
+{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.ban-contenu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.histoire-ban-montre{display: block;}
+.histoire-ban-cache{display: none;}
+
+.plus-ou-moins
+{
+	font-size: 24px;
+	border-radius: 20px;
+	padding: 0px 20px;
+
+	color: #fff;
+	border: 2px solid #000;
+	background-color: #000;
+
+	transition: 0.4s;
+}
+
+.plus-ou-moins:hover
+{
+	font-size: 30px;
+	padding: 0px 20px;
+	background-color: #830000;
+}
+  
+*
+{box-sizing: border-box;}
+  /*======================================================================================================================================*/
+#grille-chefs{padding: 10px;}
+  .row {
+	margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+	padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Chef */
+  .chef {
+	background-color: white;
+	padding: 0px 10px;
+	text-indent: 0px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+	.column {
+	  width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }

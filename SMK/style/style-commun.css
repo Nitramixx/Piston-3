@@ -1,0 +1,52 @@
+/* Cette page définit les caractéristiques communs à toutes les pages du site */
+/*Importer la police Libre Baskerville */
+@font-face {
+	font-family: "Libre Baskerville";
+	src: url("../assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+
+/* Définir la largeur qu'aura l'article */
+body
+{
+	width: 1240px;
+	margin: auto;
+
+	background: url('../assets/images/logo_suf.png') repeat fixed;
+}
+
+.blocpage
+{
+	background: #090E37;
+	border-radius: 20px;
+	margin-top: 0px;
+	/*Police par défaut de la page */
+	font-family: "Libre Baskerville";
+	font-weight: lighter;
+}
+
+p
+{
+	color: #060236;
+}
+
+a
+{
+	color: #837258;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #534228;
+	text-decoration: underline;
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+.active
+{
+	display: block;
+}

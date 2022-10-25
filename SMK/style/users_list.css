@@ -1,0 +1,25 @@
+.users-list
+{
+	width: 1200px;
+	margin: auto;
+	margin-top: 100px;
+
+  	background: #eee;
+}
+
+.titre-article
+{
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 20px;
+
+	background: #837258;
+	color: #fff;
+
+}
+
+.userDatas
+{
+    display: flex;
+}
